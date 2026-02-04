@@ -1,20 +1,14 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
-import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { Plug, Lightbulb, Wrench, Zap, Check, Phone } from 'lucide-react';
+import { Check, Phone } from 'lucide-react';
 import Hero from '@/components/Hero';
-import LogoMarquee from '@/components/LogoMarquee';
-import { services, features } from '@/data/hero';
-import { electricalCompanyLogos } from '@/data/companyLogos';
-
-const iconMap = {
-   plug: Plug,
-   lightbulb: Lightbulb,
-   wrench: Wrench,
-   zap: Zap
-};
+import PremiumBrands from '@/components/PremiumBrands';
+import FindUsHere from '@/components/FindUsHere';
+import ProductsGrid from '@/components/ProductsGrid';
+import OurServices from '@/components/OurServices';
+import { features } from '@/data/hero';
 
 const Home = () => {
    return (
@@ -29,48 +23,17 @@ const Home = () => {
          {/* Hero Section with Carousel */}
          <Hero />
 
-         {/* Company Logos Section */}
-         <section className="py-12 bg-white">
-            <div className="container mx-auto px-4">
-               <h2 className="text-2xl md:text-3xl font-bold text-center mb-8 text-foreground">
-                  Authorized Dealer of Premium Brands
-               </h2>
-               <LogoMarquee logos={electricalCompanyLogos} speed={30} />
-            </div>
-         </section>
+         {/* Premium Brands Component */}
+         <PremiumBrands />
 
-         {/* Services Section */}
-         <section className="py-16 bg-white">
-            <div className="container mx-auto px-4">
-               <div className="text-center mb-12">
-                  <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-                     Our Services
-                  </h2>
-                  <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-                     Comprehensive electrical solutions for homes, businesses, and industrial needs
-                  </p>
-               </div>
+         {/* Find Us Here Component */}
+         <FindUsHere />
 
-               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                  {services.map((service) => {
-                     const IconComponent = iconMap[service.iconName];
-                     return (
-                        <Card key={service.id} className="hover:shadow-lg transition-shadow">
-                           <CardContent className="p-6 text-center">
-                              <div className="flex justify-center mb-4">
-                                 <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center">
-                                    <IconComponent className="w-8 h-8 text-primary" />
-                                 </div>
-                              </div>
-                              <h3 className="text-xl font-semibold mb-2">{service.title}</h3>
-                              <p className="text-muted-foreground">{service.description}</p>
-                           </CardContent>
-                        </Card>
-                     );
-                  })}
-               </div>
-            </div>
-         </section>
+         {/* Products Grid Component */}
+         <ProductsGrid />
+
+         {/* Our Services Component */}
+         <OurServices />
 
          {/* Why Choose Us Section */}
          <section className="py-16 bg-secondary">
@@ -108,7 +71,7 @@ const Home = () => {
                </p>
                <div className="flex gap-4 justify-center flex-wrap">
                   <Button asChild size="lg" className="bg-white text-primary hover:bg-gray-100">
-                     <a href="tel:+919474041466" className="flex items-center gap-2">
+                     <a href="tel:+919474051466" className="flex items-center gap-2">
                         <Phone className="h-5 w-5" />
                         Call Now
                      </a>
@@ -131,8 +94,8 @@ const Home = () => {
                      <p className="text-muted-foreground mb-4">West Bengal 713144</p>
                      <p className="text-lg">
                         <strong>Contact:</strong>{' '}
-                        <a href="tel:+919474041466" className="text-primary hover:underline">
-                           +91 9474041466
+                        <a href="tel:+919474051466" className="text-primary hover:underline">
+                           +91 9474051466
                         </a>
                      </p>
                      <p className="text-muted-foreground mt-2">Owner: Biplab Koner</p>

@@ -89,8 +89,8 @@ const Footer = () => {
                      </li>
                      <li>
                         <strong className="text-foreground">Phone:</strong><br />
-                        <a href="tel:+919474041466" className="text-primary hover:underline">
-                           +91 9474041466
+                        <a href="tel:+919474051466" className="text-primary hover:underline">
+                           +91 9474051466
                         </a>
                      </li>
                      <li>
@@ -107,8 +107,8 @@ const Footer = () => {
                   <div>
                      <p className="text-sm text-muted-foreground">
                         More ways to shop: Visit our store, call{' '}
-                        <a href="tel:+919474041466" className="text-primary hover:underline font-semibold">
-                           +91 9474041466
+                        <a href="tel:+919474051466" className="text-primary hover:underline font-semibold">
+                           +91 9474051466
                         </a>
                         , or find us in Bahadurpur.
                      </p>
