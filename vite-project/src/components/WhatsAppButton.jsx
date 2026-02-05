@@ -10,7 +10,7 @@ const WhatsAppButton = () => {
          href={whatsappUrl}
          target="_blank"
          rel="noopener noreferrer"
-         className="fixed bottom-6 right-6 z-[9999] group"
+         className="fixed bottom-20 sm:bottom-24 right-4 sm:right-6 z-[9999] group"
          aria-label="Chat on WhatsApp"
       >
          {/* Pulsing ring effect */}

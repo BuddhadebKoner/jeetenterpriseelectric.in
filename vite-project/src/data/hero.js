@@ -98,7 +98,7 @@ export const services = [
 
 export const features = [
    "Authorized Dealer of Premium Brands",
-   "20+ Years of Industry Experience",
+   "10+ Years of Industry Experience",
    "Competitive Pricing",
    "Free Technical Consultation",
    "Quick Delivery Across West Bengal",

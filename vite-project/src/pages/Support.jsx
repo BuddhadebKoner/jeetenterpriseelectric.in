@@ -5,9 +5,9 @@ const Support = () => {
    return (
       <>
          <Helmet>
-            <title>Support - Jeet Enterprise Electric</title>
-            <meta name="description" content="Customer support and assistance for Jeet Enterprise Electric products and services. We're here to help." />
-            <meta name="keywords" content="customer support, electrical support, help center, Jeet Enterprise Electric" />
+            <title>Support - Jeet Enterprise</title>
+            <meta name="description" content="Customer support and assistance for Jeet Enterprise products and services. We're here to help." />
+            <meta name="keywords" content="customer support, electrical support, help center, Jeet Enterprise" />
             <link rel="canonical" href="https://jeetenterpriseelectric.in/support" />
          </Helmet>
 

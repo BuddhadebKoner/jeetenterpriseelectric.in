@@ -1,78 +1,88 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { MapPin, Phone, Mail } from 'lucide-react';
 
 const Footer = () => {
    return (
-      <footer className="bg-secondary border-t border-border py-12 mt-auto">
+      <footer className="bg-white border-t border-border py-12 mt-auto">
          <div className="container mx-auto px-4">
-            {/* Main Footer Content */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
-               {/* About Section */}
+            {/* Main Footer Content - Premium Grid */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
+               {/* Company Info Section */}
                <div>
-                  <h5 className="font-semibold text-foreground mb-4">About Us</h5>
-                  <ul className="space-y-2">
+                  <img
+                     className="h-14 w-auto object-contain mb-3"
+                     src="/logo.png"
+                     alt="Jeet Enterprise Logo"
+                  />
+                  <h3 className="text-xl font-serif font-semibold text-foreground mb-4">Jeet Enterprise</h3>
+                  <p className="text-muted-foreground text-sm leading-relaxed mb-4">
+                     Your trusted electrical partner in Purba Bardhaman. We provide quality products and
+                     affordable solutions for all your electrical needs.
+                  </p>
+                  <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                     <MapPin className="w-4 h-4 text-primary" />
+                     <span>Serving West Bengal since inception</span>
+                  </div>
+               </div>
+
+               {/* Quick Links Section */}
+               <div>
+                  <h5 className="font-semibold text-foreground mb-4">Quick Links</h5>
+                  <ul className="space-y-3">
                      <li>
-                        <Link to="/about" className="text-muted-foreground hover:text-primary text-sm">
-                           Our Story
+                        <Link to="/" className="text-muted-foreground hover:text-primary transition-colors text-sm flex items-center group">
+                           <span className="w-1.5 h-1.5 bg-primary rounded-full mr-2 opacity-0 group-hover:opacity-100 transition-opacity"></span>
+                           Home
                         </Link>
                      </li>
                      <li>
-                        <Link to="/about" className="text-muted-foreground hover:text-primary text-sm">
-                           Infrastructure
+                        <Link to="/about" className="text-muted-foreground hover:text-primary transition-colors text-sm flex items-center group">
+                           <span className="w-1.5 h-1.5 bg-primary rounded-full mr-2 opacity-0 group-hover:opacity-100 transition-opacity"></span>
+                           About Us
                         </Link>
                      </li>
                      <li>
-                        <Link to="/support" className="text-muted-foreground hover:text-primary text-sm">
-                           Certifications
+                        <Link to="/products" className="text-muted-foreground hover:text-primary transition-colors text-sm flex items-center group">
+                           <span className="w-1.5 h-1.5 bg-primary rounded-full mr-2 opacity-0 group-hover:opacity-100 transition-opacity"></span>
+                           Products
+                        </Link>
+                     </li>
+                     <li>
+                        <Link to="/contact" className="text-muted-foreground hover:text-primary transition-colors text-sm flex items-center group">
+                           <span className="w-1.5 h-1.5 bg-primary rounded-full mr-2 opacity-0 group-hover:opacity-100 transition-opacity"></span>
+                           Contact
                         </Link>
                      </li>
                   </ul>
                </div>
 
-               {/* Products Section */}
+               {/* Products & Services Section */}
                <div>
-                  <h5 className="font-semibold text-foreground mb-4">Products</h5>
-                  <ul className="space-y-2">
+                  <h5 className="font-semibold text-foreground mb-4">Our Services</h5>
+                  <ul className="space-y-3">
                      <li>
-                        <a href="#" className="text-muted-foreground hover:text-primary text-sm">
+                        <Link to="/products" className="text-muted-foreground hover:text-primary transition-colors text-sm flex items-center group">
+                           <span className="w-1.5 h-1.5 bg-primary rounded-full mr-2 opacity-0 group-hover:opacity-100 transition-opacity"></span>
                            Electrical Supplies
-                        </a>
-                     </li>
-                     <li>
-                        <a href="#" className="text-muted-foreground hover:text-primary text-sm">
-                           Wires & Cables
-                        </a>
-                     </li>
-                     <li>
-                        <a href="#" className="text-muted-foreground hover:text-primary text-sm">
-                           LED Products
-                        </a>
-                     </li>
-                     <li>
-                        <a href="#" className="text-muted-foreground hover:text-primary text-sm">
-                           Switches & Sockets
-                        </a>
-                     </li>
-                  </ul>
-               </div>
-
-               {/* Support Section */}
-               <div>
-                  <h5 className="font-semibold text-foreground mb-4">Support</h5>
-                  <ul className="space-y-2">
-                     <li>
-                        <Link to="/contact" className="text-muted-foreground hover:text-primary text-sm">
-                           Customer Care
                         </Link>
                      </li>
                      <li>
-                        <Link to="/support" className="text-muted-foreground hover:text-primary text-sm">
-                           Help Center
+                        <Link to="/products" className="text-muted-foreground hover:text-primary transition-colors text-sm flex items-center group">
+                           <span className="w-1.5 h-1.5 bg-primary rounded-full mr-2 opacity-0 group-hover:opacity-100 transition-opacity"></span>
+                           House Wiring
                         </Link>
                      </li>
                      <li>
-                        <Link to="/dissolve" className="text-muted-foreground hover:text-primary text-sm">
-                           Dissolve
+                        <Link to="/products" className="text-muted-foreground hover:text-primary transition-colors text-sm flex items-center group">
+                           <span className="w-1.5 h-1.5 bg-primary rounded-full mr-2 opacity-0 group-hover:opacity-100 transition-opacity"></span>
+                           LED Solutions
+                        </Link>
+                     </li>
+                     <li>
+                        <Link to="/dissolve" className="text-muted-foreground hover:text-primary transition-colors text-sm flex items-center group">
+                           <span className="w-1.5 h-1.5 bg-primary rounded-full mr-2 opacity-0 group-hover:opacity-100 transition-opacity"></span>
+                           Dissolve Services
                         </Link>
                      </li>
                   </ul>
@@ -81,65 +91,49 @@ const Footer = () => {
                {/* Contact Section */}
                <div>
                   <h5 className="font-semibold text-foreground mb-4">Contact Info</h5>
-                  <ul className="space-y-2 text-sm">
-                     <li className="text-muted-foreground">
-                        <strong className="text-foreground">Address:</strong><br />
-                        Bahadurpur, Abhirampur<br />
-                        West Bengal 713144
+                  <ul className="space-y-4">
+                     <li className="flex items-start gap-3">
+                        <MapPin className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                        <div className="text-sm">
+                           <p className="text-muted-foreground">Goligram Road, Abhirampur</p>
+                           <p className="text-muted-foreground">West Bengal 713144</p>
+                        </div>
                      </li>
-                     <li>
-                        <strong className="text-foreground">Phone:</strong><br />
-                        <a href="tel:+919474051466" className="text-primary hover:underline">
+                     <li className="flex items-center gap-3">
+                        <Phone className="w-5 h-5 text-primary flex-shrink-0" />
+                        <a href="tel:+919474051466" className="text-muted-foreground hover:text-primary transition-colors text-sm">
                            +91 9474051466
                         </a>
                      </li>
-                     <li>
-                        <strong className="text-foreground">Owner:</strong><br />
-                        <span className="text-muted-foreground">Biplab Koner</span>
+                     <li className="text-sm text-muted-foreground">
+                        <strong className="text-foreground">Owner:</strong> Biplab Koner
                      </li>
                   </ul>
                </div>
             </div>
 
-            {/* More Ways to Shop */}
-            <div className="border-t border-border pt-6 mb-6">
-               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <div>
-                     <p className="text-sm text-muted-foreground">
-                        More ways to shop: Visit our store, call{' '}
-                        <a href="tel:+919474051466" className="text-primary hover:underline font-semibold">
-                           +91 9474051466
-                        </a>
-                        , or find us in Bahadurpur.
-                     </p>
-                  </div>
-                  <div className="text-right">
-                     <p className="text-sm text-muted-foreground font-semibold">
-                        Serving West Bengal with Quality
-                     </p>
-                  </div>
+            {/* Divider */}
+            <div className="border-t border-border mb-8"></div>
+
+            {/* Bottom Footer */}
+            <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+               <div className="text-sm text-muted-foreground">
+                  <p>
+                     © {new Date().getFullYear()} <span className="text-foreground font-semibold">Jeet Enterprise</span>. All rights reserved.
+                  </p>
+               </div>
+               <div className="flex gap-6 text-sm">
+                  <Link to="/privacy-policy" className="text-muted-foreground hover:text-primary transition-colors">
+                     Privacy Policy
+                  </Link>
+                  <span className="text-border">|</span>
+                  <Link to="/terms-conditions" className="text-muted-foreground hover:text-primary transition-colors">
+                     Terms & Conditions
+                  </Link>
                </div>
             </div>
 
-            {/* Bottom Footer */}
-            <div className="border-t border-border pt-6">
-               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
-                  <div>
-                     <p className="text-sm text-muted-foreground">
-                        <span className="font-semibold">© 2026 Jeet Enterprise Electric. All rights reserved.</span>
-                        {' '}
-                        <Link to="/" className="hover:text-primary">Privacy Policy</Link>
-                        {' | '}
-                        <Link to="/" className="hover:text-primary">Terms of Use</Link>
-                     </p>
-                  </div>
-                  <div className="text-right">
-                     <p className="text-sm text-muted-foreground">
-                        Electrical Supply Store in West Bengal
-                     </p>
-                  </div>
-               </div>
-            </div>
+
          </div>
       </footer>
    );

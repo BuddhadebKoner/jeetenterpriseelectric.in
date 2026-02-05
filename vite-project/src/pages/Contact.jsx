@@ -5,9 +5,9 @@ const Contact = () => {
    return (
       <>
          <Helmet>
-            <title>Contact Us - Jeet Enterprise Electric</title>
-            <meta name="description" content="Get in touch with Jeet Enterprise Electric. Contact us for inquiries, quotes, and customer support." />
-            <meta name="keywords" content="contact us, electrical shop contact, customer support, Jeet Enterprise Electric" />
+            <title>Contact Us - Jeet Enterprise</title>
+            <meta name="description" content="Get in touch with Jeet Enterprise. Contact us for inquiries, quotes, and customer support." />
+            <meta name="keywords" content="contact us, electrical shop contact, customer support, Jeet Enterprise" />
             <link rel="canonical" href="https://jeetenterpriseelectric.in/contact" />
          </Helmet>
 

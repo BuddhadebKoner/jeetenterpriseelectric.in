@@ -12,7 +12,7 @@ const FindUsHere = () => {
                   Find Us Here
                </h2>
                <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-                  Visit our store at Bahadurpur, Abhirampur, West Bengal 713144
+                  Visit our store at Goligram Road, Abhirampur, West Bengal 713144
                </p>
             </div>
 
@@ -29,7 +29,7 @@ const FindUsHere = () => {
                            allowFullScreen=""
                            loading="lazy"
                            referrerPolicy="no-referrer-when-downgrade"
-                           title="Jeet Enterprise Electric Location"
+                           title="Jeet Enterprise Location"
                         />
                      </div>
                   </div>

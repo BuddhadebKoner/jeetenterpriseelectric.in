@@ -36,7 +36,7 @@ const Navbar = () => {
                      <img
                         className="h-14 w-auto object-contain"
                         src="/logo.png"
-                        alt="Jeet Enterprise Electric Logo"
+                        alt="Jeet Enterprise Logo"
                      />
                   </NavLink>
 
@@ -65,7 +65,7 @@ const Navbar = () => {
                   </NavLink>
 
                   <NavLink
-                     to="/support"
+                     to="/products"
                      className={({ isActive }) =>
                         `flex items-center h-14 transition-colors ${isActive
                            ? "text-primary font-semibold"
@@ -73,7 +73,7 @@ const Navbar = () => {
                         }`
                      }
                   >
-                     Support
+                     Products
                   </NavLink>
 
                   <NavLink

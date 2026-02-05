@@ -5,9 +5,9 @@ const Dissolve = () => {
    return (
       <>
          <Helmet>
-            <title>Dissolve - Jeet Enterprise Electric</title>
-            <meta name="description" content="Dissolve page for Jeet Enterprise Electric." />
-            <meta name="keywords" content="dissolve, Jeet Enterprise Electric" />
+            <title>Dissolve - Jeet Enterprise</title>
+            <meta name="description" content="Dissolve page for Jeet Enterprise." />
+            <meta name="keywords" content="dissolve, Jeet Enterprise" />
             <link rel="canonical" href="https://jeetenterpriseelectric.in/dissolve" />
          </Helmet>
 
