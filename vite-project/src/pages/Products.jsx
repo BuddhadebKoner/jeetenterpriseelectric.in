@@ -47,9 +47,23 @@ const Products = () => {
       <>
          <Helmet>
             <title>Products - Jeet Enterprise</title>
-            <meta name="description" content="Browse our comprehensive range of electrical products including wires, cables, switches, LED lights, and safety equipment." />
-            <meta name="keywords" content="electrical products, wires, cables, LED lights, switches, sockets, MCB, electrical accessories" />
+            <meta name="description" content="Browse our comprehensive range of electrical products including wires, cables, switches, LED lights, and safety equipment. Premium quality products in West Bengal." />
+            <meta name="keywords" content="electrical products, wires, cables, LED lights, switches, sockets, MCB, electrical accessories, ISI certified" />
             <link rel="canonical" href="https://jeetenterpriseelectric.in/products" />
+
+            {/* Open Graph */}
+            <meta property="og:type" content="website" />
+            <meta property="og:url" content="https://jeetenterpriseelectric.in/products" />
+            <meta property="og:title" content="Premium Electrical Products - Jeet Enterprise" />
+            <meta property="og:description" content="Browse our comprehensive range of electrical products including wires, cables, switches, LED lights, and safety equipment." />
+            <meta property="og:image" content="https://jeetenterpriseelectric.in/logo-with-bg.png" />
+
+            {/* Twitter Card */}
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:url" content="https://jeetenterpriseelectric.in/products" />
+            <meta name="twitter:title" content="Premium Electrical Products - Jeet Enterprise" />
+            <meta name="twitter:description" content="Browse our comprehensive range of electrical products." />
+            <meta name="twitter:image" content="https://jeetenterpriseelectric.in/logo-with-bg.png" />
          </Helmet>
 
          {/* Hero Section */}

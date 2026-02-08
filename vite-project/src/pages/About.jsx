@@ -41,9 +41,23 @@ const About = () => {
       <>
          <Helmet>
             <title>About Us - Jeet Enterprise</title>
-            <meta name="description" content="Learn more about Jeet Enterprise, our mission, values, and commitment to providing quality electrical products and services." />
-            <meta name="keywords" content="about us, electrical company, electrical business, Jeet Enterprise" />
+            <meta name="description" content="Learn more about Jeet Enterprise, our mission, values, and commitment to providing quality electrical products and services in West Bengal. Founded by Biplab Koner." />
+            <meta name="keywords" content="about us, electrical company, electrical business, Jeet Enterprise, Biplab Koner, West Bengal" />
             <link rel="canonical" href="https://jeetenterpriseelectric.in/about" />
+
+            {/* Open Graph */}
+            <meta property="og:type" content="website" />
+            <meta property="og:url" content="https://jeetenterpriseelectric.in/about" />
+            <meta property="og:title" content="About Us - Jeet Enterprise" />
+            <meta property="og:description" content="Learn about our mission, values, and commitment to quality electrical solutions in West Bengal." />
+            <meta property="og:image" content="https://jeetenterpriseelectric.in/logo-with-bg.png" />
+
+            {/* Twitter Card */}
+            <meta name="twitter:card" content="summary" />
+            <meta name="twitter:url" content="https://jeetenterpriseelectric.in/about" />
+            <meta name="twitter:title" content="About Us - Jeet Enterprise" />
+            <meta name="twitter:description" content="Learn about our mission and commitment to quality electrical solutions." />
+            <meta name="twitter:image" content="https://jeetenterpriseelectric.in/logo-with-bg.png" />
          </Helmet>
 
          {/* Hero Section */}

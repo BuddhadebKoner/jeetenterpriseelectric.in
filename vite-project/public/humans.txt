@@ -1,0 +1,26 @@
+/* TEAM */
+
+Owner & Founder: Biplab Koner
+Location: Abhirampur, West Bengal, India
+Website: https://jeetenterpriseelectric.in
+Contact: +91 9474051466
+
+/* SITE */
+
+Standards: HTML5, CSS3, JavaScript (ES6+)
+Framework: React 19.2.0
+Build Tool: Vite 7.2.4
+Styling: Tailwind CSS 4.1.18
+Router: React Router DOM 7.13.0
+Components: shadcn/ui
+SEO: React Helmet Async 2.0.5
+Fonts: Open Sans (Google Fonts)
+Hosting: Vercel
+Domain: https://jeetenterpriseelectric.in
+
+/* THANKS */
+
+To all our customers and the open-source community
+for making this possible.
+
+Last Updated: February 8, 2026

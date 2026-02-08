@@ -6,8 +6,23 @@ const PrivacyPolicy = () => {
       <>
          <Helmet>
             <title>Privacy Policy - Jeet Enterprise</title>
-            <meta name="description" content="Privacy Policy for Jeet Enterprise. Learn how we collect, use, and protect your information." />
+            <meta name="description" content="Privacy Policy for Jeet Enterprise. Learn how we collect, use, and protect your information. We value your privacy and data security." />
+            <meta name="keywords" content="privacy policy, data protection, privacy, Jeet Enterprise, customer privacy" />
             <link rel="canonical" href="https://jeetenterpriseelectric.in/privacy-policy" />
+
+            {/* Open Graph */}
+            <meta property="og:type" content="website" />
+            <meta property="og:url" content="https://jeetenterpriseelectric.in/privacy-policy" />
+            <meta property="og:title" content="Privacy Policy - Jeet Enterprise" />
+            <meta property="og:description" content="Learn how we collect, use, and protect your information." />
+            <meta property="og:image" content="https://jeetenterpriseelectric.in/logo-with-bg.png" />
+
+            {/* Twitter Card */}
+            <meta name="twitter:card" content="summary" />
+            <meta name="twitter:url" content="https://jeetenterpriseelectric.in/privacy-policy" />
+            <meta name="twitter:title" content="Privacy Policy - Jeet Enterprise" />
+            <meta name="twitter:description" content="Learn how we protect your information." />
+            <meta name="twitter:image" content="https://jeetenterpriseelectric.in/logo-with-bg.png" />
          </Helmet>
 
          <div className="min-h-screen bg-gray-50 py-16">

@@ -74,6 +74,20 @@ const RentHouse = () => {
             <meta name="description" content="Budget-friendly room rental in Abhirampur. Clean bathrooms, comfortable rooms, large AC, WiFi, 24/7 electricity. Walking distance from NAS Polytechnic College. Perfect for students & professionals." />
             <meta name="keywords" content="room rental Abhirampur, affordable room rental West Bengal, student accommodation, professional housing, room for rent near NAS Polytechnic" />
             <link rel="canonical" href="https://jeetenterpriseelectric.in/rent-house" />
+
+            {/* Open Graph */}
+            <meta property="og:type" content="website" />
+            <meta property="og:url" content="https://jeetenterpriseelectric.in/rent-house" />
+            <meta property="og:title" content="Affordable Room Rental in Abhirampur | Jeet Enterprise" />
+            <meta property="og:description" content="Budget-friendly room rental. Clean bathrooms, comfortable rooms, WiFi, 24/7 electricity. Perfect for students & professionals." />
+            <meta property="og:image" content="https://jeetenterpriseelectric.in/logo-with-bg.png" />
+
+            {/* Twitter Card */}
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:url" content="https://jeetenterpriseelectric.in/rent-house" />
+            <meta name="twitter:title" content="Affordable Room Rental in Abhirampur" />
+            <meta name="twitter:description" content="Budget-friendly room rental near NAS Polytechnic College." />
+            <meta name="twitter:image" content="https://jeetenterpriseelectric.in/logo-with-bg.png" />
          </Helmet>
 
          {/* Hero Section */}

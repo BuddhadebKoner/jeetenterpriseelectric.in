@@ -18,6 +18,101 @@ const Home = () => {
             <meta name="description" content="Jeet Enterprise offers premium electrical products and solutions. Your trusted partner for all electrical needs in West Bengal." />
             <meta name="keywords" content="electrical products, electrical shop, electrical solutions, Jeet Enterprise, West Bengal, Goligram Road" />
             <link rel="canonical" href="https://jeetenterpriseelectric.in/" />
+
+            {/* Open Graph / Facebook */}
+            <meta property="og:type" content="website" />
+            <meta property="og:url" content="https://jeetenterpriseelectric.in/" />
+            <meta property="og:title" content="Jeet Enterprise - Quality Electrical Solutions" />
+            <meta property="og:description" content="Premium electrical products and solutions in West Bengal. Your trusted partner for all electrical needs by Biplab Koner." />
+            <meta property="og:image" content="https://jeetenterpriseelectric.in/logo-with-bg.png" />
+            <meta property="og:image:width" content="1200" />
+            <meta property="og:image:height" content="630" />
+            <meta property="og:site_name" content="Jeet Enterprise" />
+            <meta property="og:locale" content="en_IN" />
+
+            {/* Twitter Card */}
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:url" content="https://jeetenterpriseelectric.in/" />
+            <meta name="twitter:title" content="Jeet Enterprise - Quality Electrical Solutions" />
+            <meta name="twitter:description" content="Premium electrical products and solutions in West Bengal. Your trusted partner for all electrical needs." />
+            <meta name="twitter:image" content="https://jeetenterpriseelectric.in/logo-with-bg.png" />
+
+            {/* LocalBusiness Structured Data */}
+            <script type="application/ld+json">
+               {JSON.stringify({
+                  "@context": "https://schema.org",
+                  "@type": "LocalBusiness",
+                  "@id": "https://jeetenterpriseelectric.in/#business",
+                  "name": "Jeet Enterprise",
+                  "description": "Premium electrical products and solutions provider in West Bengal",
+                  "url": "https://jeetenterpriseelectric.in",
+                  "logo": "https://jeetenterpriseelectric.in/logo.png",
+                  "image": "https://jeetenterpriseelectric.in/logo-with-bg.png",
+                  "telephone": "+919474051466",
+                  "email": "contact@jeetenterpriseelectric.in",
+                  "priceRange": "$$",
+                  "address": {
+                     "@type": "PostalAddress",
+                     "streetAddress": "Goligram Road, Near NAS Polytechnic College",
+                     "addressLocality": "Abhirampur",
+                     "addressRegion": "West Bengal",
+                     "postalCode": "713144",
+                     "addressCountry": "IN"
+                  },
+                  "geo": {
+                     "@type": "GeoCoordinates",
+                     "latitude": "23.2599",
+                     "longitude": "87.8211"
+                  },
+                  "openingHoursSpecification": [
+                     {
+                        "@type": "OpeningHoursSpecification",
+                        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+                        "opens": "09:00",
+                        "closes": "20:00"
+                     },
+                     {
+                        "@type": "OpeningHoursSpecification",
+                        "dayOfWeek": "Sunday",
+                        "opens": "10:00",
+                        "closes": "18:00"
+                     }
+                  ],
+                  "founder": {
+                     "@type": "Person",
+                     "name": "Biplab Koner"
+                  },
+                  "areaServed": {
+                     "@type": "State",
+                     "name": "West Bengal"
+                  },
+                  "sameAs": [
+                     "https://jeetenterpriseelectric.in"
+                  ]
+               })}
+            </script>
+
+            {/* Organization Structured Data */}
+            <script type="application/ld+json">
+               {JSON.stringify({
+                  "@context": "https://schema.org",
+                  "@type": "Organization",
+                  "name": "Jeet Enterprise",
+                  "url": "https://jeetenterpriseelectric.in",
+                  "logo": "https://jeetenterpriseelectric.in/logo.png",
+                  "founder": {
+                     "@type": "Person",
+                     "name": "Biplab Koner"
+                  },
+                  "contactPoint": {
+                     "@type": "ContactPoint",
+                     "telephone": "+919474051466",
+                     "contactType": "Customer Service",
+                     "areaServed": "IN",
+                     "availableLanguage": ["English", "Hindi", "Bengali"]
+                  }
+               })}
+            </script>
          </Helmet>
 
          {/* Hero Section with Carousel */}

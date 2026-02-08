@@ -6,8 +6,23 @@ const TermsConditions = () => {
       <>
          <Helmet>
             <title>Terms and Conditions - Jeet Enterprise</title>
-            <meta name="description" content="Terms and Conditions for using Jeet Enterprise services. Please read these terms carefully before making a purchase." />
+            <meta name="description" content="Terms and Conditions for using Jeet Enterprise services. Please read these terms carefully before making a purchase or using our services." />
+            <meta name="keywords" content="terms and conditions, terms of service, user agreement, Jeet Enterprise" />
             <link rel="canonical" href="https://jeetenterpriseelectric.in/terms-conditions" />
+
+            {/* Open Graph */}
+            <meta property="og:type" content="website" />
+            <meta property="og:url" content="https://jeetenterpriseelectric.in/terms-conditions" />
+            <meta property="og:title" content="Terms and Conditions - Jeet Enterprise" />
+            <meta property="og:description" content="Read our terms and conditions before using our services." />
+            <meta property="og:image" content="https://jeetenterpriseelectric.in/logo-with-bg.png" />
+
+            {/* Twitter Card */}
+            <meta name="twitter:card" content="summary" />
+            <meta name="twitter:url" content="https://jeetenterpriseelectric.in/terms-conditions" />
+            <meta name="twitter:title" content="Terms and Conditions - Jeet Enterprise" />
+            <meta name="twitter:description" content="Read our terms and conditions." />
+            <meta name="twitter:image" content="https://jeetenterpriseelectric.in/logo-with-bg.png" />
          </Helmet>
 
          <div className="min-h-screen bg-gray-50 py-16">

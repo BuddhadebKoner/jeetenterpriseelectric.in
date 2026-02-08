@@ -4,5 +4,8 @@ export { default as Contact } from './Contact';
 export { default as Products } from './Products';
 export { default as Dissolve } from './Dissolve';
 export { default as RentHouse } from './RentHouse';
+export { default as Support } from './Support';
 export { default as PrivacyPolicy } from './PrivacyPolicy';
 export { default as TermsConditions } from './TermsConditions';
+export { default as Sitemap } from './Sitemap';
+export { default as NotFound } from './NotFound';

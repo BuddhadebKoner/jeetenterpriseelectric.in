@@ -1,0 +1,15 @@
+# Netlify/Vercel Redirects and Rewrites
+# For Jeet Enterprise Electric - https://jeetenterpriseelectric.in
+# Owner: Biplab Koner
+
+# SPA fallback - serve index.html for all routes (must be last)
+/*    /index.html   200
+
+# Force HTTPS (if not already enforced by hosting)
+# http://jeetenterpriseelectric.in/*    https://jeetenterpriseelectric.in/:splat    301!
+# http://www.jeetenterpriseelectric.in/*    https://jeetenterpriseelectric.in/:splat    301!
+
+# Handle common typos and old URLs (examples)
+# /product    /products    301
+# /about-us    /about    301
+# /contact-us    /contact    301

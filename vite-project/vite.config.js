@@ -10,4 +10,10 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  // Ensure public assets are copied correctly during build
+  publicDir: 'public',
+  build: {
+    // Copy public assets to dist folder
+    copyPublicDir: true,
+  },
 })
