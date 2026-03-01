@@ -8,6 +8,7 @@ import PremiumBrands from '@/components/PremiumBrands';
 import FindUsHere from '@/components/FindUsHere';
 import ProductsGrid from '@/components/ProductsGrid';
 import OurServices from '@/components/OurServices';
+import { AdSection } from '@/components/AdBanner';
 import { features } from '@/data/hero';
 
 const Home = () => {
@@ -118,14 +119,23 @@ const Home = () => {
          {/* Hero Section with Carousel */}
          <Hero />
 
+         {/* Ad Section - After Hero */}
+         <AdSection variant="leaderboard" className="bg-gray-50/50" />
+
          {/* Premium Brands Component */}
          <PremiumBrands />
 
          {/* Find Us Here Component */}
          <FindUsHere />
 
+         {/* Ad Section - Before Products */}
+         <AdSection variant="horizontal" />
+
          {/* Products Grid Component */}
          <ProductsGrid />
+
+         {/* Ad Section - Between Products & Services */}
+         <AdSection variant="banner" className="bg-gray-50/50" />
 
          {/* Our Services Component */}
          <OurServices />
@@ -155,6 +165,9 @@ const Home = () => {
             </div>
          </section>
 
+         {/* Ad Section - Before CTA */}
+         <AdSection variant="horizontal" />
+
          {/* Contact CTA Section */}
          <section className="py-16 bg-primary text-white">
             <div className="container mx-auto px-4 text-center">
@@ -177,6 +190,9 @@ const Home = () => {
                </div>
             </div>
          </section>
+
+         {/* Ad Section - Before Location */}
+         <AdSection variant="leaderboard" className="bg-gray-50/50" />
 
          {/* Location Section */}
          <section className="py-16">
